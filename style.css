@@ -1,0 +1,61 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    background-color: lightblue;
+    background-image: url(seashore.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    text-align:center;
+    padding: 25px;
+    font-family: "courier new";
+    font-weight: bold;
+    color:brown
+}
+.navbar{
+    background-color: violet;
+    font-family: "courier new";
+    font-weight: bold;
+}
+aside{
+    background-position:center;
+    width:10%;
+    float:left;
+    padding:10px;
+    font-family: "courier new";
+    font-weight: bold;
+}
+section{
+    font-size: 10px;
+    width:50%;
+    float:left;
+    padding:10px;
+}
+article{
+    border:2px solid;
+    width:40%;
+    float:left;
+    padding:10px;
+    font-family: "courier new";
+    font-weight: bold;
+    color:brown
+
+}
+footer{
+    display:block;
+    clear:both;
+    text-align:center;
+    padding: 25px;
+    color:blacks;
+    font-family: "courier new";
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width:100%
+    }
+}
